@@ -2,7 +2,19 @@
     background-image: linear-gradient(to right, #38a4da, #144760);
 }
 
+.blue-white-outline {
+    background-color: #FFFFFF;
+}
+
 .blue-white:hover {
+    animation-name: blueLight;
+    animation-duration: 650ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.blue-white-outline:hover {
     animation-name: blueLight;
     animation-duration: 650ms;
     animation-iteration-count: infinite;
