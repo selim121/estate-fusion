@@ -59,13 +59,13 @@ const NavItems = () => {
                 <NavLink to="/about-us" className="hidden md:block active-link hover:border-b-4 hover:border-[#144760] px-[8px] py-[1px] " onClick={() => setIsOpen(false)}>
                     About Us
                 </NavLink>
-                <div onClick={toggleOpen} className='flex flex-row items-center gap-3 cursor-pointer hover:shadow-md transition toggle-element rounded-full p-4 py-1 px-2 border-[1px] border-[#144760] md:hidden'>
+                <div onClick={toggleOpen} className='flex flex-row items-center cursor-pointer hover:shadow-md transition toggle-element rounded-full py-1 px-2 border-[1px] border-[#144760] md:hidden'>
                     <AiOutlineMenu color='#FFFFFF' size={'30px'} />
                 </div>
             </div>
             {
                 isOpen && (
-                    <div className='absolute z-20 rounded-xl shadow-md w-[40vw] md:w-3/4 bg-[#1F2732] overflow-hidden right-0 top-12 text-sm'>
+                    <div className='absolute z-20 rounded-xl shadow-md w-[40vw] md:w-3/4 bg-[#E7F4EA] overflow-hidden right-0 top-12 text-sm'>
                         <div className='flex flex-col cursor-pointer'>
 
                             <Link
