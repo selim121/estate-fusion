@@ -1,0 +1,37 @@
+.blue-white {
+    background-image: linear-gradient(to right, #38a4da, #144760);
+}
+
+.blue-white:hover {
+    animation-name: blueLight;
+    animation-duration: 650ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes blueLight {
+    0% {
+        background-image: linear-gradient(to right, #38a4da, #144760);
+    }
+
+    20% {
+        background-image: linear-gradient(to right, #0069d8, #00336a);
+    }
+
+    40% {
+        background-image: linear-gradient(to right, #0057b3, #004186);
+    }
+
+    60% {
+        background-image: linear-gradient(to right, #003e81, #0056acc3);
+    }
+
+    80% {
+        background-image: linear-gradient(to right, #003e81, #0065c9c3);
+    }
+
+    100% {
+        background-image: linear-gradient(to right, #144760, #38a4da);
+    }
+}
