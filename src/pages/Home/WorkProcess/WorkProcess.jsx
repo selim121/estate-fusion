@@ -20,6 +20,10 @@ const WorkProcess = () => {
                             <p className="text-sm font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div className="bg-white sm:w-3/5 p-5 mt-5 rounded-lg">
+                            <h4 className="text-2xl font-semibold tracking-widest mb-3">Revision</h4>
+                            <p className="text-sm font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div className="bg-white sm:w-3/5 p-5 mt-5 rounded-lg">
                             <h4 className="text-2xl font-semibold tracking-widest mb-3">Maintenance</h4>
                             <p className="text-sm font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
