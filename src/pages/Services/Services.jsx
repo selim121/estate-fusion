@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import '../../../styles/Service.css';
+import '../../styles/Service.css';
 import { Link } from 'react-router-dom';
-import Button from '../../Shared/Button/Button';
+import Button from '../Shared/Button/Button';
 
-const TopServices = () => {
+const Services = () => {
 
     const [services, setServices] = useState([]);
 
@@ -20,9 +20,9 @@ const TopServices = () => {
                     <h1 className="text-[#144760] text-2xl md:text-5xl">What Service We Offer!</h1>
                     <p className="text-[#144760] opacity-70 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias corporis asperiores placeat, veniam vero, nam similique delectus deserunt eveniet accusantium enim fugit dignissimos officiis?</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
                     {
-                        services?.slice(0,2).map((service, index) => <div key={index} className="service-card">
+                        services?.map((service, index) => <div key={index} className="service-card">
                             <div className="content-overlay"></div>
                             <div className={service.image} />
                             <div className="content-details fadeIn-bottom">
@@ -33,12 +33,9 @@ const TopServices = () => {
                         </div>)
                     }
                 </div>
-                <div className="text-center mt-6">
-                    <Link to={'/services'}><Button name={'See more'} /></Link>
-                </div>
             </div>
         </div>
     );
 };
 
-export default TopServices;
+export default Services;

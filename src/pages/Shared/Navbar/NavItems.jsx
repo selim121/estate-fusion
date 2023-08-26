@@ -77,7 +77,7 @@ const NavItems = () => {
                             </Link>
                             <Link
                                 onClick={() => setIsOpen(false)}
-                                to='/'
+                                to='/services'
                                 className='block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#144760] transition font-semibold '
                             >
                                 Services
