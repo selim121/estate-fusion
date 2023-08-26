@@ -9,7 +9,7 @@ const Reputation = () => {
             <div className="max-w-screen-xl mx-auto px-4 pt-16 md:px-0">
                 <div className="flex flex-col md:flex-row items-center justify-center gap-8">
                     <div className="w-full md:w-2/5 h-96 relative">
-                        <img className='w-full h-full' src={reputation} alt="" />
+                        <img className='w-full h-full rounded-t-lg' src={reputation} alt="" />
                         <div className="absolute top-10 right-5 bg-white w-48 px-3 pb-3 pt-8">
                             <p className="text-sm">&quot;FIABCI World Prixd Excellent Awards 2022&quot;</p>
                             <ImQuotesLeft className='absolute -top-3 right-1/2 z-1 bg-white p-1 rounded-full' size={'25px'} />
