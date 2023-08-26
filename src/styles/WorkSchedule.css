@@ -1,0 +1,45 @@
+.row-line {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    height: 100%;
+    border: 1px solid #ccc;
+
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        left: -7px;
+        width: 10px;
+        height: 10px;
+        border: 2px solid #ccc;
+        background: #E7F4EA;
+        border-radius: 100%;
+    }
+
+    &:before {
+        top: -12px;
+    }
+
+    &:after {
+        top: 100%;
+    }
+}
+
+.time span {
+    position: absolute;
+    font-size: 0.7rem;
+    color: #E7F4EA;
+
+    &:first-child {
+        top: -10px;
+        left: -90px;
+    }
+
+    &:last-child {
+        top: 100%;
+        left: -90px;
+    }
+
+}
