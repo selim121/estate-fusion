@@ -4,7 +4,7 @@ import workProcess from '../../../assets/others/work-process.jpeg';
 const WorkProcess = () => {
     return (
         <div className='bg-[#144760]'>
-            <div className="max-w-screen-xl mx-auto px-4 pt-16 md:px-0">
+            <div className="max-w-screen-xl mx-auto px-4 py-16 md:px-0">
                 <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-8">
                     <div className="w-full h-full md:w-[500px]">
                         <img className='w-full h-full rounded-lg' src={workProcess} alt="" />

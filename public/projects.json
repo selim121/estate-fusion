@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Architecture",
+        "quantity": 35
+    },
+    {
+        "title": "Interior Design",
+        "quantity": 25
+    },
+    {
+        "title": "Decoration",
+        "quantity": 15
+    },
+    {
+        "title": "Renovation",
+        "quantity": 20
+    },
+    {
+        "title": "Furniture",
+        "quantity": 22
+    },
+    {
+        "title": "3D Visualization",
+        "quantity": 28
+    }
+]

@@ -33,7 +33,7 @@ const NavItems = () => {
                 <NavLink to="/services" className="hidden md:block active-link hover:border-b-4 hover:border-[#144760] text-[#144760] px-[8px] py-[1px] " onClick={() => setIsOpen(false)}>
                     Services
                 </NavLink>
-                <NavLink to="/our-project" className="hidden md:block active-link hover:border-b-4 hover:border-[#144760] text-[#144760] px-[8px] py-[1px] " onClick={() => setIsOpen(false)}>
+                <NavLink to="/our-projects" className="hidden md:block active-link hover:border-b-4 hover:border-[#144760] text-[#144760] px-[8px] py-[1px] " onClick={() => setIsOpen(false)}>
                     Our Project
                 </NavLink>
                 <div className="dropdown dropdown-bottom dropdown-end dropdown-hover">
@@ -84,7 +84,7 @@ const NavItems = () => {
                             </Link>
                             <Link
                                 onClick={() => setIsOpen(false)}
-                                to='/'
+                                to='/our-projects'
                                 className='block md:hidden px-4 py-3 hover:border-b-4 hover:border-[#144760] text-[#144760] transition font-semibold '
                             >
                                 Our Project
