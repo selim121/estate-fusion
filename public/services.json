@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Architecture",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eaque quaerat harum!",
+        "image": "service-1"
+    },
+    {
+        "title": "Interior Design",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eaque quaerat harum!",
+        "image": "service-2"
+    },
+    {
+        "title": "Decoration",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eaque quaerat harum!",
+        "image": "service-3"
+    },
+    {
+        "title": "Renovation",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eaque quaerat harum!",
+        "image": "service-4"
+    },
+    {
+        "title": "Furniture",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eaque quaerat harum!",
+        "image": "service-5"
+    },
+    {
+        "title": "3D Visualization",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod eaque quaerat harum!",
+        "image": "service-6"
+    }
+]

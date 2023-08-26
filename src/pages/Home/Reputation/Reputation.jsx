@@ -17,7 +17,7 @@ const Reputation = () => {
                     </div>
                     <div className="w-full md:w-3/5">
                         <h4 className="text-[#FFFFFF] text-4xl font-semibold">Our Reputation is an solid as concrete</h4>
-                        <p className="text-[#FFFFFF] font-light text-justify mt-5 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ducimus amet! Ut accusamus facilis itaque. Molestiae dicta quae voluptas magnam. Suscipit voluptatem nobis unde libero.</p>
+                        <p className="text-[#FFFFFF] font-light text-justify mt-5 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ducimus amet! Ut accusamus facilis itaque. Molestiae dicta quae voluptas magnam. Suscipit voluptatem nobis unde libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore culpa corporis minima recusandae magni similique molestias facere quo necessitatibus nobis.</p>
                         <div className="text-[#FFFFFF] flex flex-wrap items-center gap-8 mb-5">
                             <p className="font-light"><span className="text-3xl font-bold">13+</span><br />Years of experience</p>
                             <p className="font-light"><span className="text-3xl font-bold">60+</span><br />Properties build</p>
