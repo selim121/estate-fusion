@@ -9,7 +9,11 @@ const WorkSchedule = () => {
         <div className='bg-[#144760]'>
             <div className="max-w-screen-xl mx-auto py-20">
                 <div className="flex flex-col items-center justify-center">
-                <h1 className="text-[#E7F4EA] text-2xl md:text-5xl py-12">How To Work With Us!</h1>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center mb-12">
+                        <h1 className="text-[#E7F4EA] text-2xl md:text-5xl">How To Work With Us!</h1>
+                        <p className="text-[#E7F4EA] opacity-70 text-sm border-s-8 ps-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias corporis asperiores placeat, veniam vero, nam similique accusantium enim fugit dignissimos officiis?</p>
+                    </div>
+                    {/* <div className="border-t border-[#E7F4EA] w-full"></div> */}
                     <ul>
                         <li className="relative w-[300px] md:w-[450px] bg-[#E7F4EA] my-8 p-4 rounded-md tracking-wider">
                             <span className='row-line'></span>
