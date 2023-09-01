@@ -28,9 +28,9 @@ const OurProjects = () => {
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-8 py-12">
                     <div className="flex flex-col gap-8 items-center justify-center">
                         {
-                            projects?.slice(0, 3).map((project, index) => <div key={index} className='w-full h-full lg:w-[500px] lg:h-[650px] mb-6'>
+                            projects?.slice(0, 3).map((project, index) => <div key={index} className='w-full h-full lg:w-[500px] lg:h-[650px] mb-12'>
                                 <img className='w-full h-full' src={img[index++]} alt="" />
-                                <div className="p-4 flex flex-row items-center justify-between text-[#144760]">
+                                <div className="p-4 flex flex-row items-center justify-between text-[#E7F4EA] bg-[#144760]">
                                     <h3 className="font-bold">{project.title}</h3>
                                     <p className="font-light">{project.quantity}+ projects</p>
                                 </div>
@@ -39,9 +39,9 @@ const OurProjects = () => {
                     </div>
                     <div className="flex flex-col gap-8 items-center justify-center mt-20">
                         {
-                            projects?.slice(3, 6).map((project, index) => <div key={index} className='w-full h-full lg:w-[500px] lg:h-[650px] mb-6'>
+                            projects?.slice(3, 6).map((project, index) => <div key={index} className='w-full h-full lg:w-[500px] lg:h-[650px] mb-12'>
                                 <img className='w-full h-full' src={img[index + 2]} alt="" />
-                                <div className="p-4 flex flex-row items-center justify-between text-[#144760]">
+                                <div className="p-4 flex flex-row items-center justify-between text-[#E7F4EA] bg-[#144760]">
                                     <h3 className="font-bold">{project.title}</h3>
                                     <p className="font-light">{project.quantity}+ projects</p>
                                 </div>
